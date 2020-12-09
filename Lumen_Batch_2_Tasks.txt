@@ -1,3 +1,32 @@
+
+DAY - 1 - Lab -1
+
+
+windows task bar type env
+
+Select Environment variable 
+
+Add JAVA_HOME => specify java home location
+
+Edit Path variable =>by added %java_home%\bin
+
+Test by  invoking echo %java_home% from command prompt
+
+======================================
+
+Create a Java Class Student with any three attributes and Constructors 
+
+Create a directory with the name  => bin
+
+The compiled classes should be placed into the bin folder 
+
+Create a Class Application and Invoke the Constructor and call the methods
+
+=================================================================
+Setting the Class Path - Lab
+===================================================
+
+
 ==========================================
 DAY - 2 - Lab -1
 
@@ -37,23 +66,12 @@ Create Java Class Book with details like id,bookName,author,price.
 Create a Java Class BookService Which will have overloaded methods
 to calculate the price discount .
 
-
-=======
 => One Method will take book as argument and calculate the discount on the 
     basis of price - use a simple if else ladder 
 
 => Another Method will take book and customer type -> Corporate or Retail 
    and the discount will be calculated using if else-if ladder 
 
-
- => Take the input for the applicatio using scanner class 
-
- =>  Test Both the Methods
-======================================================================== 
-
-
-
-=======
  => Take the input for the application using scanner class 
 
  =>  Test Both the Methods
@@ -104,7 +122,55 @@ Day 3 - Assignment -3
   Create a Service with One Method which take Billable as argument and print the calculated amount
    
 
+  =================================================================
+Day -4   Lab -1
 
+==> DONE  1. Exception Handling -with try-catch
+==> DONE  2. Eception Handling - try-catch-finally
+
+DAY 4 - Assignment -1
+
+  1. Copy the Student Class from any exisiting  Project else create a Student class
+     with attributes like rollNumber,studentName,markScored;
+  2. Create a Exception class RangeCheckException Extending java.lang.Exception and      override the getMessage method
+  3. Check the markscored is within the range 0 to 100 else throw the      rangecheckException
+   4. Do Exception Handling in both setMarkScored and constructor
+   5. In setter Method use try catch block
+    6. In Constructor use throws clause
+
+
+Day 4 - Lab 2
+
+    1. Copy the Student Class from any exisiting  Project else create a Student class     with attributes like rollNumber,studentName,markScored;
+    2. Add the Serializable Interface to the Student class
+    3. Create a StudentService class and Serialize the Student Object 
+
+DAY 4 - Assignment -2
+
+=>DONE   1. Add transient to the attribute qualification
+=>DONE  2. Create a overloaded writeObjectToFile which takes a array of Professor as 
+          argument  , serialize to the file 
+=>DONE   3. Deserialize the file and print the records
+
+DAY 4 - Assignment -3
+
+    1. Change the size of arry in readFrom file to  4
+    2. Add 3 More professors to the File using writeToTextFile 
+    3. The Application Should be read all the professors from the file 
+    4. Manage the Array Size programatically.
+    
+Day 4 - Lab 3
+
+=> DONE     1.Eqauls and Hash Code Method
+=> DONE     2.Final class/method/variable
+=> DONE    3.Java Docs
+=> DONE     4. Packaging Jar
+Day -4  Assignment -4
+
+   1. Explain Equals and HashCode methods
+   2. Immutable in java => java.lang.String
+   
+=======================================================================
 
 
 
